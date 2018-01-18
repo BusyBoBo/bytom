@@ -67,7 +67,3 @@ func saveUtxoView(batch dbm.Batch, view *state.UtxoViewpoint) error {
 	}
 	return nil
 }
-
-func SaveUtxoView(batch dbm.Batch, view *state.UtxoViewpoint) error {
-	return saveUtxoView(batch, view)
-}
